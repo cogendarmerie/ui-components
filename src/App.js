@@ -1,24 +1,50 @@
 import logo from './logo.svg';
-import './App.css';
+import './assets/css/main.css';
+import { Button } from './components/button';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <section id='ui-buttons'>
+        <div>
+          <h2>Buttons</h2>
+        </div>
+        <div>
+          <div>
+            <div>
+              <h3>Primary</h3>
+            </div>
+            <div>
+              <Button variant='primary'>Create account</Button>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>Secondary</h3>
+            </div>
+            <div>
+              <Button variant='secondary'>Create account</Button>
+            </div>
+          </div>
+          < div>
+            <div>
+              <h3>Outline</h3>
+            </div>
+            <div>
+              <Button variant='outline'>Create account</Button>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3>Light</h3>
+            </div>
+            <div>
+              <Button variant='light'>Create account</Button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
   );
 }
 

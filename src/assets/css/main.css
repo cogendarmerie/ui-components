@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 1rem 2rem;
+  background-color: #E9EEF7;
+}
+
+.btn {
+  padding: 18px 48px;
+  font-family: "Figtree", sans-serif;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  border-radius: 8px;
+}
+
+.btn-primary {
+  background-color: #2437E7;
+  color: #FFFFFF;
+  border: 1px solid #2437E7;
+}
+.btn-primary:hover {
+  background-color: #0e197e;
+  color: #FFFFFF;
+  border-color: #0e197e;
+}
+
+.btn-secondary {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #FFFFFF;
+}
+.btn-secondary:hover {
+  background-color: #0e197e;
+  color: #FFFFFF;
+  border-color: #0e197e;
+}
+
+.btn-outline {
+  border: 1px solid #2437E7;
+  color: #2437E7;
+}
+.btn-outline:hover {
+  background-color: #0e197e;
+  color: #FFFFFF;
+  border-color: #0e197e;
+}
+
+.btn-light {
+  background-color: rgba(36, 55, 231, 0.1);
+  color: #2437E7;
+  border: 1px solid transparent;
+}
+.btn-light:hover {
+  background-color: #0e197e;
+  color: #FFFFFF;
+  border-color: #0e197e;
+}
